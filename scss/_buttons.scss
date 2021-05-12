@@ -1,0 +1,38 @@
+/* Boton main*/
+.btn-gradient {
+    background-image: linear-gradient(to right, #0ceb8e 0%, #afe320  51%, #78eb0c  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-transform: uppercase;
+    background-size: 200% auto;
+    color: #fff;            
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 10px;
+    border: none; 
+    display: inline;
+    transition: background 0.5s;
+}
+
+ .btn-gradient:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Boton de info */
+.button-info{
+    padding: .4em;
+    border-radius: .25em;
+    background: $naranja;
+    color: #fff;
+}
+
+.button-info:hover{
+    text-decoration: none;
+    color: #fff;
+    background: #c97d3c;
+}
+
+
+
