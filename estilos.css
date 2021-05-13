@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.h1{
+    padding-top: 3em;
+    color: #fff;
+    font-size: 4em;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link-Custom{
+    text-shadow: 1px 1px 1px #000;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+#nav-link-Custom{
+    color: #fff;
+}
+
+#nav-link-Custom:hover{
+    color: #78eb0c;
+}
+
+.logo{
+    padding: .4em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+    border: 2px solid #fff;
+    box-shadow: 1px 1px #000;
+}
+
+/* flex */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.subTitle{
+    color: #ddd;
+    text-shadow: 2px 2px 3px #000;
+}
+
+
+
+.banner{
+    background-image: url(./img/imageback.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+/* CSS de servicios */
+
+/*---------------------------------------- TEST -------------------------------------------------*/
+
+.containerBox {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlayTop {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    /* background-color: #7ee8fa; */
+    background-image: linear-gradient(315deg, rgba(126, 231, 250, 0.5) 0%, rgba(128, 255, 114, 0.5) 74%);
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .containerBox:hover .overlayTop {
+    bottom: 0;
+    height: 100%;
+  }
+
+  .overlayLeft {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient(315deg, rgba(126, 231, 250, 0.5) 0%, rgba(128, 255, 114, 0.5) 74%);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .containerBox:hover .overlayLeft {
+    width: 100%;
+  }
+
+  .overlayRight {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-image: linear-gradient(315deg, rgba(126, 231, 250, 0.5) 0%, rgba(128, 255, 114, 0.5) 74%);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .containerBox:hover .overlayRight {
+    width: 100%;
+    left: 0;
+  }
+  
+
+  .overlayBottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* background-color: #7ee8fa; */
+    background-image: linear-gradient(315deg, rgba(126, 231, 250, 0.5) 0%, rgba(128, 255, 114, 0.5) 74%);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .containerBox:hover .overlayBottom {
+    height: 100%;
+  }
+  
+  .text {
+    color: #fff;
+    font-size: 1.6em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* Css del apartado de Contact Form */
+
+.containerBackgroundContactForm{
+    height: 100vh;
+    /* background-image: linear-gradient(315deg, #7ee7fa79 0%, #80ff727a 74%), url(./img/backContacForm.jpg);
+    background-image: linear-gradient(120deg, #89f6fed7 0%, #66a6ffd7 100%), url(./img/backContacForm.jpg);
+    background-image: linear-gradient(to top, rgba(11, 162, 97, 0.3) 0%, rgba(60, 186, 146, 0.3) 100%), url(./img/backContacForm.jpg);
+    background-image: linear-gradient(to top, rgba(48, 208, 208, 0.7) 0%, rgba(51, 8, 103, 0.7) 100%), url(./img/backContacForm.jpg); */
+    background-image: linear-gradient(to top, rgba(128, 255, 114, 0) ,rgba(128, 255, 114, 0)), url(./img/backcontactformgreen.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerContactForm{
+    width: 790px;
+    background: #fff;
+}
+
+
+@media screen and (max-width: 790px){
+
+    .containerContactForm{
+        width: 90%;
+        background: #fff;
+    }
+    
+}
+
+.label{
+    display: block;
+    text-transform: uppercase;
+    color: #555;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.input{
+    /* display: block; */
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px #afe320;
+}
+
+.textarea{
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: solid 2px #afe320;
+}
+
+/* boton de submit */
+
+.btn-gradient {background-image: linear-gradient(to right, #0ceb8e 0%, #afe320  51%, #78eb0c  100%)}
+
+.btn-gradient {
+   margin: 10px;
+   padding: 15px 45px;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #ccc;
+   border-radius: 10px;
+   border: none; 
+   display: inline;
+ }
+
+ .btn-gradient:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+ 
+  
+/* ------------------------------------------------------ Footer TOP ---------------------------------------------- */
+
+.footerTop{
+    background-color: #7ee8fa;
+    background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+    text-align: center;   
+}
+
+.footerTopImg i{
+    color: #fff;
+    padding: 20px;
+    font-size: 200px;
+}
+
+.footerTopImg p{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.footerTopInformation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-items: center; */
+}
+
+.footerTopInformation i{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.infoContacto{
+    font-size: 1.6em;
+    color: #fff;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.infoContacto a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*------------------------------------------------------- Footer--------------------------------------------------- */
+footer{
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(to top, #000, #333 );
+}
+
+footer p{
+    color: #fff;
+    font-family: 'montserrat', sans-serif;
+}
+
+.copyright{
+    text-align: center;
+    padding: 20px;
+}
+
+.wraperFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.boxFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.boxFooter p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+}
+
+.boxFooter ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+
+.boxFooter ul li a{
+    color: #888;
+    text-decoration: none;
+}
+
+.boxFooter ul li a:hover{
+    text-decoration: underline;
+}
+
+.boxFooter{
+    color: #fff;
+    font-style: 20px;
+}
+
+.boxFooter i:hover{
+    visibility: hidden;
+    color: #fff;
+    font-style: 20px;
+}
+
