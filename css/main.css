@@ -4,8 +4,9 @@
   font-size: 4em;
   text-shadow: 2px 2px 3px #000;
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
-  text-transform: uppercase; }
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 1.5; }
 
 .h2 {
   text-align: center;
@@ -50,7 +51,7 @@
 /* Paleta de colores */
 /* Boton main*/
 .btn-gradient {
-  background-image: linear-gradient(to right, #0ceb8e 0%, #afe320 51%, #78eb0c 100%);
+  background-image: linear-gradient(to right, #0ceb8e 0%, #afe320 51%, #0ceb8e 100%);
   margin: 10px;
   padding: 15px 45px;
   text-transform: uppercase;
@@ -95,12 +96,19 @@
   color: #fff; }
 
 #bg-dark-custom {
-  background-color: rgba(51, 51, 51, 0.7); }
+  background-color: rgba(51, 51, 51, 0.9); }
 
 .navbar-dark .navbar-toggler {
   color: #fff;
   border-color: #fff;
   box-shadow: 1px 1px 1px #000; }
+
+.parent {
+  position: relative; }
+
+.child {
+  position: sticky;
+  top: 50px; }
 
 /* Logo */
 .logo {
@@ -330,3 +338,11 @@ footer {
       .wraperFooter .boxFooter ul li a:hover {
         display: inline;
         text-decoration: underline; }
+
+.video__services {
+  height: 50vh;
+  width: 100%;
+  object-fit: cover; }
+
+.banner {
+  position: absolute; }

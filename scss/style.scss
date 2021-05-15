@@ -20,12 +20,21 @@
     color: #fff;
 }
 #bg-dark-custom{
-    background-color: rgba(51, 51, 51, 0.7);
+    background-color: rgba(51, 51, 51, 0.9);
 }
 .navbar-dark .navbar-toggler{
     color: #fff;
     border-color: #fff;
     box-shadow: 1px 1px 1px #000;
+}
+
+.parent{
+    position: relative;
+}
+
+.child{
+    position: sticky;
+    top: 50px;
 }
 
 /* Logo */
@@ -307,4 +316,15 @@ footer{
             }
         }
     }
+}
+
+
+.video__services{
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner{
+    position: absolute;
 }
