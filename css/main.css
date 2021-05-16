@@ -81,6 +81,23 @@
   color: #fff;
   background: #c97d3c; }
 
+/* Flexbox de catering */
+.services__container {
+  display: flex; }
+
+.services__banner {
+  height: 35vh;
+  background-color: tomato; }
+
+.services__banner__titulo {
+  text-align: center;
+  color: #333;
+  font-size: 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-top: 4em; }
+
 * {
   margin: 0;
   padding: 0;
