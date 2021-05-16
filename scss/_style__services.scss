@@ -4,7 +4,7 @@
 }
 
 .services__banner{
-    height: 35vh;
+    height: 50vh;
     background-color: tomato;
 }
 
@@ -16,4 +16,10 @@
     font-weight: bolder;
     text-transform: uppercase;
     padding-top: 4em;
+}
+
+@media (min-width:600px) {
+    .services__banner{
+        height: 35vh;
+    }
 }

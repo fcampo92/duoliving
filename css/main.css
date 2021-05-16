@@ -86,7 +86,7 @@
   display: flex; }
 
 .services__banner {
-  height: 35vh;
+  height: 50vh;
   background-color: tomato; }
 
 .services__banner__titulo {
@@ -97,6 +97,10 @@
   font-weight: bolder;
   text-transform: uppercase;
   padding-top: 4em; }
+
+@media (min-width: 600px) {
+  .services__banner {
+    height: 35vh; } }
 
 * {
   margin: 0;
@@ -200,7 +204,7 @@
   .card {
     max-width: 15em; } }
 
-.services__catering__img {
+.services__img {
   height: 400px;
   object-fit: cover;
   object-position: center; }
@@ -332,5 +336,3 @@ footer {
 
 .banner {
   position: absolute; }
-
-/* Flexbox de catering */
