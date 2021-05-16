@@ -103,13 +103,6 @@
   border-color: #fff;
   box-shadow: 1px 1px 1px #000; }
 
-.parent {
-  position: relative; }
-
-.child {
-  position: sticky;
-  top: 50px; }
-
 /* Logo */
 .logo {
   padding: .4em;
@@ -118,12 +111,57 @@
   border: 2px solid #fff;
   box-shadow: 1px 1px #000; }
 
-/* flex */
-.flex-row {
+/* flex row */
+.flex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-around; }
+
+/* Flex column */
+.flex-column {
+  display: flex;
+  flex-direction: column;
   justify-content: center; }
+
+.servicesBox {
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 6em; }
+  .servicesBox .services_a {
+    color: #fff;
+    text-decoration: none; }
+
+.bg__catering {
+  background-image: url(../img/services/catering.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.bg__dj {
+  background-image: url(../img/services/dj.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.bg__couch {
+  background-image: url(../img/services/moviliario.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.bg__fotografia {
+  background-image: url(../img/services/photograp.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.bg__ambientaciones {
+  background-image: url(../img/services/centerpiece2.jpg);
+  background-size: cover;
+  background-position: center; }
+
+.bg__deco {
+  background-image: url(../img/services/chairs.jpg);
+  background-size: cover;
+  background-position: center; }
 
 .subTitle {
   color: #fff;
@@ -137,87 +175,18 @@
   height: 100vh;
   width: 100%; }
 
-.services {
-  display: flex;
-  flex-wrap: wrap; }
-  .services .services_button {
-    margin: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 6em;
-    color: #fff;
-    background-size: cover;
-    background-position: center;
-    text-align: center;
-    font-size: 1.2em;
-    font-family: 'montserrat', sans-serif;
-    font-weight: normal;
-    text-shadow: 2px 2px 1px #000;
-    border-radius: 3px; }
-    .services .services_button i {
-      padding: 1em; }
-  .services .services_button--bgCatering {
-    background-image: url(../img/services/catering_s.jpg);
-    transition: .3s;
-    filter: grayscale(100%); }
-  .services .services_button--bgCatering:hover {
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    box-shadow: 2px 2px 5px #000; }
-  .services .services_button--bgDj {
-    background-image: url(../img/services/dj.jpg);
-    filter: grayscale(100%);
-    transition: .3s; }
-  .services .services_button--bgDj:hover {
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    box-shadow: 2px 2px 5px #000; }
-  .services .services_button--bgCouch {
-    background-image: url(../img/services/moviliario.jpg);
-    filter: grayscale(100%);
-    transition: .3s; }
-  .services .services_button--bgCouch:hover {
-    transform: scale(1.1);
-    filter: grayscale(0%);
-    box-shadow: 2px 2px 5px #000; }
-  .services .services_button--bgPhoto {
-    background-image: url(../img/services/photograp.jpg);
-    filter: grayscale(100%);
-    transition: .3s; }
-  .services .services_button--bgPhoto:hover {
-    background-image: url(../img/services/photograp.jpg);
-    filter: none;
-    transform: scale(1.1);
-    box-shadow: 2px 2px 5px #000; }
-  .services .services_button--bgBebidas {
-    background-image: url(../img/services/chairs.jpg);
-    filter: grayscale(100%);
-    transition: .3s; }
-  .services .services_button--bgBebidas:hover {
-    background-image: url(../img/services/chairs.jpg);
-    filter: none;
-    transform: scale(1.1);
-    box-shadow: 2px 2px 5px #000; }
-  .services .services_button--bgDecoration {
-    background-image: url(../img/services/centerpiece2.jpg);
-    filter: grayscale(100%);
-    transition: .3s; }
-  .services .services_button--bgDecoration:hover {
-    background-image: url(../img/services/centerpiece2.jpg);
-    filter: none;
-    transform: scale(1.1);
-    box-shadow: 2px 2px 5px #000; }
-
 /* Card de eventos */
 .card {
-  max-width: 375px;
-  flex-grow: 1; }
+  max-width: 360px; }
 
 @media screen and (min-width: 768px) {
   .card {
-    max-width: 350px; } }
+    max-width: 15em; } }
+
+.services__catering__img {
+  height: 400px;
+  object-fit: cover;
+  object-position: center; }
 
 /* Css del apartado de Contact Form */
 .containerBackgroundContactForm {
@@ -346,3 +315,5 @@ footer {
 
 .banner {
   position: absolute; }
+
+/* Flexbox de catering */
