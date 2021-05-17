@@ -89,14 +89,46 @@
   height: 50vh;
   background-color: #ccc; }
 
+.services-banner {
+  background-image: url(../img/services/services__banner.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.servicesbox {
+  width: 100%;
+  height: 100vh;
+  display: flex; }
+
+.servicesbox__child {
+  background: #ccc;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
 .services__banner-photo {
   background-image: url(../img/services/services__photographer/banner__photographer.jpg);
   background-position: center;
   background-size: cover; }
 
+.services__banner-catering {
+  background-image: url(../img/services/services__catering/services__banner__catering.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.services__banner-dj {
+  background-image: url(../img/services/services__dj/services__banner_dj.jpg);
+  background-position: center;
+  background-size: cover; }
+
+.services__banner-moviliario {
+  background-image: url(../img/services/services__alquiler/services__\,banner__moviliario.jpg);
+  background-position: center;
+  background-size: cover; }
+
 .services__banner__titulo {
   text-align: center;
-  color: #333;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
   font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
@@ -322,7 +354,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 20px; }
+  padding: 15px; }
   .wraperFooter .boxFooter {
     display: flex;
     flex-direction: column;
