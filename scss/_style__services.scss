@@ -5,7 +5,13 @@
 
 .services__banner{
     height: 50vh;
-    background-color: tomato;
+    background-color: #ccc;
+}
+
+.services__banner-photo{
+    background-image: url(../img/services/services__photographer/banner__photographer.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .services__banner__titulo{

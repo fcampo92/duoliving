@@ -17,9 +17,9 @@
   text-transform: uppercase; }
 
 .h3 {
+  text-align: center;
   color: #fff;
-  font-size: 4em;
-  text-shadow: 2px 2px 3px #000;
+  font-size: 2em;
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
   text-transform: uppercase; }
@@ -87,7 +87,12 @@
 
 .services__banner {
   height: 50vh;
-  background-color: tomato; }
+  background-color: #ccc; }
+
+.services__banner-photo {
+  background-image: url(../img/services/services__photographer/banner__photographer.jpg);
+  background-position: center;
+  background-size: cover; }
 
 .services__banner__titulo {
   text-align: center;
@@ -143,16 +148,26 @@
 .flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+  flex-grow: 1; }
 
 .servicesBox {
   justify-content: center;
   align-items: center;
-  width: 360px;
   height: 6em; }
   .servicesBox .services_a {
     color: #fff;
     text-decoration: none; }
+
+@media (max-width: 400px) {
+  .servicesBox {
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+    height: 6em; }
+    .servicesBox .services_a {
+      color: #fff;
+      text-decoration: none; } }
 
 .bg__catering {
   background-image: url(../img/services/catering.jpg);
@@ -196,13 +211,12 @@
   height: 100vh;
   width: 100%; }
 
-/* Card de eventos */
 .card {
   max-width: 360px; }
 
 @media screen and (min-width: 768px) {
   .card {
-    max-width: 15em; } }
+    max-width: 20em; } }
 
 .services__img {
   height: 400px;
