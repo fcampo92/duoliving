@@ -166,17 +166,17 @@
 }
 
 .containerContactForm{
-    width: 790px;
+    width: 50%;
     background: #fff;
 }
 
 
 @media screen and (max-width: 790px){
 
-    .containerContactForm{
-        width: 90%;
-        background: #fff;
-    }
+     .containerContactForm{
+         width: 90%;
+         background: #fff;
+     }
     
 }
 
@@ -252,7 +252,6 @@
     color: #fff;
 }
 
-
 /*------------------------------------------------------- Footer--------------------------------------------------- */
 footer{
     width: 100%;
@@ -303,14 +302,5 @@ footer{
 }
 
 
-.video__services{
-    height: 50vh;
-    width: 100%;
-    object-fit: cover;
-}
-
-.banner{
-    position: absolute;
-}
 
 

@@ -272,7 +272,7 @@
   justify-content: center; }
 
 .containerContactForm {
-  width: 790px;
+  width: 50%;
   background: #fff; }
 
 @media screen and (max-width: 790px) {
@@ -378,11 +378,3 @@ footer {
       .wraperFooter .boxFooter ul li a:hover {
         display: inline;
         text-decoration: underline; }
-
-.video__services {
-  height: 50vh;
-  width: 100%;
-  object-fit: cover; }
-
-.banner {
-  position: absolute; }
