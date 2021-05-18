@@ -45,6 +45,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 /* Flex column */
 .flex-column{
@@ -52,6 +53,7 @@
     flex-direction: column;
     justify-content: center;
     flex-grow:1;
+    
 }
 
 .servicesBox{
@@ -130,7 +132,8 @@
 }
 
 .card{
-    max-width: 360px;
+    max-width: 350px;
+    
     
 }
 
@@ -270,7 +273,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 10px;
     .boxFooter{
         display: flex;
         flex-direction: column;
@@ -280,7 +283,7 @@ footer{
             font-family: 'Montserrat', sans-serif;
             font-weight: lighter;
             font-size: 20px;
-            text-align: center;
+            text-align: left;
         }
         ul{
             li{

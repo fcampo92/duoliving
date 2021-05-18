@@ -60,6 +60,12 @@
     padding-top: 4em;
 }
 
+.description{
+    padding: .3em;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
 @media (min-width:600px) {
     .services__banner{
         height: 35vh;

@@ -33,11 +33,10 @@
   text-transform: uppercase; }
 
 .h5 {
-  color: #fff;
-  font-size: 4em;
-  text-shadow: 2px 2px 3px #000;
+  color: #333;
+  font-size: 1.5em;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
+  font-weight: lighter;
   text-transform: uppercase; }
 
 .h6 {
@@ -134,6 +133,11 @@
   font-weight: bolder;
   text-transform: uppercase;
   padding-top: 4em; }
+
+.description {
+  padding: .3em;
+  text-align: justify;
+  font-size: 1.2em; }
 
 @media (min-width: 600px) {
   .services__banner {
@@ -244,7 +248,7 @@
   width: 100%; }
 
 .card {
-  max-width: 360px; }
+  max-width: 350px; }
 
 @media screen and (min-width: 768px) {
   .card {
@@ -354,7 +358,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 15px; }
+  padding: 10px; }
   .wraperFooter .boxFooter {
     display: flex;
     flex-direction: column;
@@ -364,7 +368,7 @@ footer {
       font-family: 'Montserrat', sans-serif;
       font-weight: lighter;
       font-size: 20px;
-      text-align: center; }
+      text-align: left; }
     .wraperFooter .boxFooter ul li {
       list-style-type: none;
       padding: 5px; }
