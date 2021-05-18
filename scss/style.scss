@@ -79,7 +79,7 @@
     .servicesBox{
         justify-content: center;
         align-items: center;
-        width:365px;
+        width:100%;
         height: 6em;
         .services_a{
             color: #fff;
@@ -162,6 +162,7 @@
 .containerContactForm{
     width: 50%;
     background: #fff;
+    padding: 4em;
 }
 
 
@@ -170,6 +171,7 @@
      .containerContactForm{
          width: 90%;
          background: #fff;
+         padding: 1em;
      }
     
 }

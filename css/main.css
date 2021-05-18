@@ -93,17 +93,6 @@
   background-position: center;
   background-size: cover; }
 
-.servicesbox {
-  width: 100%;
-  height: 100vh;
-  display: flex; }
-
-.servicesbox__child {
-  background: #ccc;
-  width: 100%;
-  display: flex;
-  flex-direction: column; }
-
 .services__banner-photo {
   background-image: url(../img/services/services__photographer/banner__photographer.jpg);
   background-position: center;
@@ -206,7 +195,7 @@
   .servicesBox {
     justify-content: center;
     align-items: center;
-    width: 365px;
+    width: 100%;
     height: 6em; }
     .servicesBox .services_a {
       color: #fff;
@@ -271,12 +260,14 @@
 
 .containerContactForm {
   width: 50%;
-  background: #fff; }
+  background: #fff;
+  padding: 4em; }
 
 @media screen and (max-width: 790px) {
   .containerContactForm {
     width: 90%;
-    background: #fff; } }
+    background: #fff;
+    padding: 1em; } }
 
 .label {
   display: block;
