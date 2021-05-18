@@ -59,12 +59,18 @@
 .servicesBox{
     justify-content: center;
     align-items: center;
-    // width: 350px;
-    height: 6em;
+    height: 15em;
+    border: 1px solid #ccc;
     .services_a{
         color: #fff;
         text-decoration: none;
-
+        font-size: 1.6em;
+        font-weight: 400;
+        text-shadow: 1px 1px 1px #333;
+        text-transform: uppercase;
+    }
+    .services_a:hover{
+        text-decoration: underline;
     }
 }
 
@@ -78,6 +84,7 @@
         .services_a{
             color: #fff;
             text-decoration: none;
+            font-size: 1.2em;
     
         }
     }
@@ -106,16 +113,7 @@
     background-size: cover;
     background-position: center;
 }
-.bg__ambientaciones{
-    background-image: url(../img/services/centerpiece2.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.bg__deco{
-    background-image: url(../img/services/chairs.jpg);
-    background-size: cover;
-    background-position: center;
-}
+
 
 .subTitle{
     color: #fff;
@@ -133,8 +131,6 @@
 
 .card{
     max-width: 350px;
-    
-    
 }
 
 @media screen and (min-width:768px) {
@@ -149,9 +145,7 @@
     object-position: center;
 }
 
-
-
-/* Css del apartado de Contact Form */
+/*------------------------------ Css del apartado de Contact Form ---------------------------*/
 
 .containerBackgroundContactForm{
     height: 100vh;
@@ -265,7 +259,7 @@ footer{
 
 .copyright{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .wraperFooter{

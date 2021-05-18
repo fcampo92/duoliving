@@ -190,10 +190,17 @@
 .servicesBox {
   justify-content: center;
   align-items: center;
-  height: 6em; }
+  height: 15em;
+  border: 1px solid #ccc; }
   .servicesBox .services_a {
     color: #fff;
-    text-decoration: none; }
+    text-decoration: none;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-shadow: 1px 1px 1px #333;
+    text-transform: uppercase; }
+  .servicesBox .services_a:hover {
+    text-decoration: underline; }
 
 @media (max-width: 400px) {
   .servicesBox {
@@ -203,7 +210,8 @@
     height: 6em; }
     .servicesBox .services_a {
       color: #fff;
-      text-decoration: none; } }
+      text-decoration: none;
+      font-size: 1.2em; } }
 
 .bg__catering {
   background-image: url(../img/services/catering.jpg);
@@ -222,16 +230,6 @@
 
 .bg__fotografia {
   background-image: url(../img/services/photograp.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.bg__ambientaciones {
-  background-image: url(../img/services/centerpiece2.jpg);
-  background-size: cover;
-  background-position: center; }
-
-.bg__deco {
-  background-image: url(../img/services/chairs.jpg);
   background-size: cover;
   background-position: center; }
 
@@ -259,7 +257,7 @@
   object-fit: cover;
   object-position: center; }
 
-/* Css del apartado de Contact Form */
+/*------------------------------ Css del apartado de Contact Form ---------------------------*/
 .containerBackgroundContactForm {
   height: 100vh;
   background-image: linear-gradient(to top, rgba(128, 255, 114, 0), rgba(128, 255, 114, 0)), url(../img/backcontactformgreen.jpg);
@@ -352,7 +350,7 @@ footer {
 
 .copyright {
   text-align: center;
-  padding: 20px; }
+  padding: 10px; }
 
 .wraperFooter {
   display: flex;
