@@ -1,19 +1,19 @@
 .h1{
     color: #fff;
     font-size: 4em;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 3px 3px 1px #444;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: lighter;
     text-transform: uppercase;
     line-height: 1.5;
 }
 
 .h2{
     text-align: center;
-    color: #333;
+    color: $gris;
     font-size: 2em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
+    font-weight: lighter;
     text-transform: uppercase;
 }
 

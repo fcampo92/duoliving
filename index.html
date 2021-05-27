@@ -12,6 +12,8 @@
 <!------------------------------------------------ bootstrap local ---------------------------------------------->
     <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e77e4c6f1b.js" crossorigin="anonymous"></script>
@@ -20,14 +22,14 @@
   
 <!---------------------------------------- Nav responsive Bootstrap -------------------------------------------->
   <div class="row m-0" >
-    <nav class="navbar navbar-expand-lg col-12 navbar-dark fixed-top" id="bg-dark-custom">
+    <nav class="navbar navbar-expand-lg col-12 fixed-top shadow" id="bg-dark-custom">
       <a class="navbar-brand nav-link-Custom logo" href="index.html">DUO LIVING</a>
       <button class="navbar-toggler navbar-toggler-custom" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fas fa-bars"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link nav-link-Custom" id="nav-link-Custom" href="index.html">Home</a>
           </li>
           <li class="nav-item">
@@ -45,24 +47,28 @@
          </ul>
       </div>
     </nav>
+  </div> 
+  
+  <!-- nav -->
 
-  </div>    
-<!------------------------------------------ Main con presentación de la empresa --------------------------------->
+  
+<!------------------------------------------ Main con presentación de la empresa ------------------------------------>
       <div class="position-relative overflow-hidden text-center banner">
         <div class="container p-lg-5 mx-auto my-5">
           <h1 class="display-4 h1 p-5">Duo Living</h1>
-          <p class="subTitle">Hacemos que tu día sea innolvidable</p>
+          <p class="subTitle">Hacemos que tu día sea inolvidable</p>
         </div>
+
         <div class="row justify-content-center">
           <a class="btn-gradient" href="#eventos">Comencemos</a>
         </div>
+        
       </div>
 <!-------------------------------------------- Presentación de eventos --------------------------------------------->
       <div class="jumbotron shadow mb-5" id="eventos">
         <h2 class="h2">Nuestros eventos</h2>
       </div>
 <!--------------------------------------------- Card de eventos ----------------------------------------------------->
-   
 <div class="flex">
         <div class="card m-2">
             <div class="card-body text-center shadow">
@@ -88,7 +94,7 @@
                 <img class="p-2" src="./img/img-ico/decadas.png" alt="celebration">
                 <h5 class="card-title">Celebración de décadas</h5>
                 <hr>
-                <p class="card-text">Una nueva década, y que mejor manera que recibirla viviendo un momento innolvidable junto a tus seres amados. Hagamos de este un momento único en tu vida. </p>
+                <p class="card-text">Una nueva década, y que mejor manera que recibirla viviendo un momento inolvidable junto a tus seres amados. Hagamos de este un momento único en tu vida. </p>
                 <a href="#hash" class="button-info shadow">Más Información</a>
             </div>
           </div>
@@ -103,7 +109,7 @@
           </div>
       </div>
       
-<!-------------------------------------- Titulo de servicios ----------------------------------------->
+<!-------------------------------------- Titulo de servicios ------------------------------------------->
     <div class="jumbotron shadow mb-5 mt-5" style="margin-bottom: 0;" id="servicios">
       <h2 class="h2">Nuestros Servicios</h2>
     </div>
@@ -130,7 +136,7 @@
 </div>
 
 
-<!---------------------------------------- ContactFormStart ------------------------------------------------>
+<!---------------------------------------- ContactFormStart ---------------------------------------------->
     <div class="containerBackgroundContactForm" id="contacto">
         <div class="containerContactForm rounded">
             <h5 class="text-center font-weight-medium h5">Contáctanos</h5>
@@ -149,19 +155,18 @@
     </div>
 
 <!---------------------------------------------------- Footer -------------------------------------------------->
-      <div class="footerTop">
-        <div class="footerTopImg">
-            <i class="fas fa-glass-cheers"></i>
-            <p>DUO LIVING</p>
-        </div>
-        <div class="footerTopInformation">
-            <i class="far fa-envelope"></i>
-            <span class="infoContacto"><a href="#">contacto@duoliving.com</a></span>
-            <i class="fas fa-phone"></i>
-            <span class="infoContacto"></i>011 4444-5555</span>
-        </div>
-     </div>
-</div>
+  <div class="footerTop">
+    <div class="footerTopImg">
+      <i class="fas fa-glass-cheers"></i>
+        <p>DUO LIVING</p>
+    </div>
+    <div class="footerTopInformation">
+      <i class="far fa-envelope"></i>
+      <span class="infoContacto"><a href="#">contacto@duoliving.com</a></span>
+      <i class="fas fa-phone"></i>
+      <span class="infoContacto"></i>011 4444-5555</span>
+    </div>
+  </div>
 
 <footer>
     <div class="copyright">
@@ -195,7 +200,7 @@
         </div>
     </div>
     <div>
-      <p class="text-center">Hecho con mucho ♥ y con <i class="fas fa-coffee"> <i class="fas fa-cat"></i> <i class="fas fa-cat"></i></i></p>
+      <p class=" text-center pt-5 final">Hecho con mucho ♥ y con <i class="fas fa-coffee"></i></p>
     </div>
 </footer>
 
